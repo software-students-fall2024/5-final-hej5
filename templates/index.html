@@ -37,7 +37,7 @@
         <script>
             document.getElementById('copy-link-button').addEventListener('click', function() {
                 const username = "{{ current_user.username }}";
-                const link = `http://127.0.0.1:5001//wishlist/${username}`;
+                const link = `https://sea-turtle-app-ehzjf.ondigitalocean.app/wishlist/${username}`;
 
                 navigator.clipboard.writeText(link).then(() => {
                     alert('Wishlist link copied to clipboard!');
