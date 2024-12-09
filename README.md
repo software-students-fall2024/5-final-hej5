@@ -6,9 +6,9 @@
 1. [Description](#description)
 2. [Configure](#configure)
 3. [Run the app](#run-the-app)
-4. [Tests](#testing)
-5. [Container Images](#container-images)
-6. [Digital Ocean Deployment](#deployment)
+4. [Digital Ocean Deployment](#deployment)
+5. [Tests](#testing)
+6. [Container Images](#container-images)
 7. [Team members](#team-members)
 
 ## Description
@@ -41,6 +41,9 @@ When finished using the app, stop and remove the containers and previously creat
 docker-compose down
 ```
 
+## Digital Ocean Deployment
+See our web-app deployment using Digital Ocean [HERE](https://sea-turtle-app-ehzjf.ondigitalocean.app/createAccount?next=%2F)
+
 ## Testing
 The web-app subsystem includes unit tests with 80+% code coverage. Run the tests with pytest:
 ```
@@ -49,13 +52,7 @@ pytest --cov=.
 ```
 
 ## Container Images
-[Flask Web-App Image](https://hub.docker.com/r/jnahan/happylist)
-[MongoDB Image]()
-<!-- INSERT CONTAINER LINK -->
-
-## Digital Ocean Deployment
-See our web-app deployment using Digital Ocean [HERE]()
-<!-- INSERT DEPLOYMENT LINK -->
+[Flask Web-App Image](https://hub.docker.com/r/jnahan/happylist-web-app)
 
 ## Team members
 [Haley Hobbs](https://github.com/haleyhobbs) \
